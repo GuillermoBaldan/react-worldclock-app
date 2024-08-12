@@ -1,9 +1,9 @@
 import React from 'react';
-import WorldClock from './components/WorldClock'; // Importamos el componente WorldClock
+import WorldClock from './components/WorldClock';
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <WorldClock />
     </div>
   );

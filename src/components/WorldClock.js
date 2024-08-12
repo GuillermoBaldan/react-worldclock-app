@@ -22,20 +22,18 @@ const WorldClock = () => {
       setTimezones(newTimezones);
     };
 
-    // Actualiza la hora cada segundo
     const intervalId = setInterval(updateTimes, 1000);
 
-    // Limpia el intervalo cuando el componente se desmonta
     return () => clearInterval(intervalId);
   }, [timezones]);
 
   return (
     <div>
-      <h1>Reloj Mundial</h1>
-      <ul>
+      <h1 className="center-align">Reloj Mundial</h1>
+      <ul className="collection">
         {timezones.map((tz, index) => (
-          <li key={index}>
-            {tz.city}: {tz.time}
+          <li key={index} className="collection-item">
+            <span className="title"><strong>{tz.city}:</strong></span> {tz.time}
           </li>
         ))}
       </ul>
