@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-worldclock-app/static/css/main.e6c13ad2.css",
+    "main.js": "/react-worldclock-app/static/js/main.8af6b7d7.js",
+    "static/js/453.7be407cc.chunk.js": "/react-worldclock-app/static/js/453.7be407cc.chunk.js",
+    "index.html": "/react-worldclock-app/index.html",
+    "main.e6c13ad2.css.map": "/react-worldclock-app/static/css/main.e6c13ad2.css.map",
+    "main.8af6b7d7.js.map": "/react-worldclock-app/static/js/main.8af6b7d7.js.map",
+    "453.7be407cc.chunk.js.map": "/react-worldclock-app/static/js/453.7be407cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.8af6b7d7.js"
+  ]
+}
